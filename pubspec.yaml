@@ -1,0 +1,32 @@
+name: funda
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^0.13.5
+  url_launcher: ^6.1.5
+  get_it: ^7.2.0
+  flutter_html: ^3.0.0-alpha.5 # used because some json paramter is in HTML
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+
